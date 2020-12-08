@@ -1,0 +1,304 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+nav{
+	width: 100%;
+	position: fixed;
+	background-color: white;
+	z-index: 9999;
+	height: 56px;
+	box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.nav-bar {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo{
+	width: 60px;
+	height: 20px;
+	margin: auto 0;
+}
+
+.nav-ul{
+	display: flex;
+	padding: 16px 0px 16px 0px;
+}
+
+.nav-link{
+	color: black;
+	font-size: 15px;
+	padding: 16px;
+	cursor: pointer;
+}
+
+.number{
+	background: #00BAFC;
+	padding: 8px 16px 8px 16px;
+	color: white;
+	font-weight: 700;
+	border-radius: 5px;
+}
+.section-1>.container{
+	display: flex;
+	justify-content: space-between;
+} 
+
+.text-part{
+	padding: 100px 172px 100px 0px;
+	width: 700px;
+}
+
+.title-1-subtext{
+	margin-top: 16px;
+}
+
+.tanishish{
+	font-size: 16px;
+	font-weight: 700;
+	color: white;
+	display: inline-block;
+	margin-top: 16px;
+	padding: 8px 16px;
+	background-color: #00BAFC; 
+}
+
+iframe{
+
+	padding-top: 100px;
+	width: 400px;
+	height: 330px;
+}
+
+.title-2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 56px;
+}
+
+.title-2-subtext{
+	margin: 0 auto;
+	width: 700px;
+	padding: 16px;
+	text-align: center;
+
+}
+
+.service-list{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.service{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 320px;
+	height: 260px;
+	box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.1);
+	margin-right: 48px;
+	margin-top: 48px;
+
+
+}
+
+.service-name{
+	padding: 16px;
+}
+
+.service-text{
+	padding-bottom: 24px;
+}
+
+.buyurtma{
+	font-size: 16px;
+	font-weight: 700;
+	color: white;
+	display: inline-block;
+	margin-top: 40px;
+	padding: 8px 16px;
+	background-color: #00BAFC;
+	border-radius: 5px;
+	border: none;
+	display: flex;
+}
+
+.xizmatlar-sahifasi{
+	color:#00BAFC;
+	display: flex;
+	margin-top: 40px;
+	margin-left: 16px;
+	text-decoration: underline;
+}
+
+.button-link{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-3{
+	margin-top: 56px;
+}
+
+.title-3{
+	display: flex;
+	justify-content: center;
+}
+
+.title-3-subtext{
+	width: 720px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.step-odd{
+	width: 100%;
+	display: flex;
+	margin-top: 50px;
+	justify-content: space-between;
+	
+}
+
+.steps-list{
+	width: 835px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+.step-even{
+	width: 100%;
+	display: flex;
+	margin-top: 50px;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	
+}
+
+.step-text{
+	margin: auto auto;
+	width: 500px;
+}
+
+.buyurtma-2{
+	margin: 56px auto;
+}
+
+.section-4{
+	background-color: #00BAFC; 
+	padding-bottom: 64px;
+}
+
+.title-4{
+	color: white;
+	display: flex;
+	justify-content: center;
+	padding-top: 56px;
+}
+
+.title-4-subtext{
+	color: white;
+	width: 720px;
+	margin: 16px auto;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.section-4-input{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	border-radius: 5px;
+	padding: 24px;
+	width: 348px;
+	margin: 24px auto;
+}
+
+.buyurtma-3{
+	margin-top: 16px;
+}
+
+input, select{
+	display: inline-block;
+	width: 300px;
+	padding: 16px;
+	border: none;
+	margin-bottom: 16px;
+	color: black;
+	background: rgba(243, 243, 243, 1);
+	outline: none;
+}
+
+input::placeholder	{
+	color: black;
+}
+
+footer{
+	background-color: black;
+	color: white;
+	display: flex;
+}
+
+.footer-title{
+	font-style: 20px;
+	padding-top: 56px;
+	margin-left: 100px;
+}
+
+.footer-text{
+	width: 320px;
+	padding-top: 16px;
+	margin-left: 100px;
+	padding-bottom: 120px;
+}
+
+.footer-links{
+	font-style: 20px;
+	padding-top: 56px;
+	margin-left: 100px;
+}
+
+.footer-link{
+	padding-top: 16px;
+}
+
+.social-media-list{
+	font-style: 20px;
+	padding-top: 56px;
+	margin-left: 100px;
+}
+
+.social-media{
+	display: flex;
+	padding-top: 16px;
+}
+
+.social-media-text{
+	margin-left: 8px;
+}
